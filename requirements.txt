@@ -1,0 +1,30 @@
+# Requirements - Speech-to-Text Bahasa Indonesia
+# Kelompok 15 - Sains Data 2023D UNESA
+#
+# Install: pip install -r requirements.txt
+# Lalu install Whisper secara terpisah:
+# pip install git+https://github.com/openai/whisper.git
+
+# Audio Processing
+librosa
+soundfile
+ffmpeg-python
+
+# Deep Learning
+torch>=2.0.0
+tensorflow
+keras
+
+# Machine Learning
+scikit-learn
+numpy
+
+# NLP / Tokenization
+tiktoken
+
+# Visualization
+matplotlib
+
+# Notebook
+jupyter
+ipykernel
